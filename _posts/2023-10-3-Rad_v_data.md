@@ -1,7 +1,17 @@
 ---
 layout: page
-title: Radial velocities
+title: Toy Model
 # permalink: /Residuals/
 ---
+# Best fit Ellipsoid
 
-The following is a map of the radial peculiar velocity field inside Laniakea with respect to the centre of our best fit ellipsoid. The Milky Way is at the origin of the Supergalactic Cartesian frame.  {% include Lania_rad_v_data.html %}
+The best fit ellipsoid goes here
+
+# Radial Velocities
+The reconstructed radial peculiar velocity field inside Laniakea, computed with respect to the centre of our best fit ellipsoid. {% include Lania_rad_v_data.html %}
+
+# Theoretical prediction
+The quadrupolar prediction for the radial peculiar velocity field inside Laniakea predicted by the triaxial anisotropic expansion. {% include Lania_rad_v_theory.html %}
+
+# Residuals
+The residuals, in units of standard deviations, between the reconstructed radial peculiar velocity field and the theoretical prediction for a constant dispersion of 170 km/s {% include Lania_residuals.html %}
